@@ -126,7 +126,9 @@ app.ai.action(AI.FlaggedInputActionName, async (context, state, data) => {
 });
 
 app.ai.action(AI.FlaggedOutputActionName, async (context, state, data) => {
-	await context.sendActivity(`I'm not allowed to talk about such things.`);
+	await context.sendActivity(
+		`I'm sorry, but I'm not allowed to talk about such things.`
+	);
 	return false;
 });
 
