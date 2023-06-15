@@ -1,6 +1,6 @@
 {
 	"schema": 1,
-	"description": "Chat with Teams AcroBot",
+	"description": "Chat with Teams catterbot",
 	"type": "completion",
 	"completion": {
 		"max_tokens": 150,
